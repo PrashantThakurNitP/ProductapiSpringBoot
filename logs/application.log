@@ -1,0 +1,113 @@
+2021-09-09 10:42:49.806  INFO 11808 --- [main] c.p.springweb.SpringwebApplication       : Starting SpringwebApplication using Java 11.0.12 on DESKTOP-FPH95ME with PID 11808 (C:\Users\prash\Downloads\springweb\springweb\target\classes started by prash in C:\Users\prash\Downloads\springweb\springweb)
+2021-09-09 10:42:49.811  INFO 11808 --- [main] c.p.springweb.SpringwebApplication       : No active profile set, falling back to default profiles: default
+2021-09-09 10:42:51.460  INFO 11808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-09 10:42:51.581  INFO 11808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interfaces.
+2021-09-09 10:42:52.806  INFO 11808 --- [main] org.eclipse.jetty.util.log               : Logging initialized @5190ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-09-09 10:42:53.730  INFO 11808 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2021-09-09 10:42:53.735  INFO 11808 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 11.0.12+8-LTS-237
+2021-09-09 10:42:53.780  INFO 11808 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2021-09-09 10:42:53.781  INFO 11808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3776 ms
+2021-09-09 10:42:54.133  INFO 11808 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2021-09-09 10:42:54.135  INFO 11808 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2021-09-09 10:42:54.143  INFO 11808 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2021-09-09 10:42:54.175  INFO 11808 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@55651434{application,/productapi,[file:///C:/Users/prash/AppData/Local/Temp/jetty-docbase.8080.16054865453029432379/],AVAILABLE}
+2021-09-09 10:42:54.176  INFO 11808 --- [main] org.eclipse.jetty.server.Server          : Started @6563ms
+2021-09-09 10:42:54.857  INFO 11808 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-09 10:42:55.023  INFO 11808 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-09 10:42:55.357  INFO 11808 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-09 10:42:55.629  INFO 11808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-09 10:42:56.142  INFO 11808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-09 10:42:56.172  INFO 11808 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-09-09 10:42:58.131  INFO 11808 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-09 10:42:58.145  INFO 11808 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-09 10:42:58.855  WARN 11808 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-09 10:42:59.728  INFO 11808 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-09 10:42:59.729  INFO 11808 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-09 10:42:59.731  INFO 11808 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-09-09 10:42:59.784  INFO 11808 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@1aad0b1{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-09-09 10:42:59.793  INFO 11808 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2021-09-09 10:42:59.820  INFO 11808 --- [main] c.p.springweb.SpringwebApplication       : Started SpringwebApplication in 10.955 seconds (JVM running for 12.207)
+2021-09-09 10:43:05.194  INFO 11808 --- [qtp492656161-23] c.p.s.controllers.ProductRestController  : log all product 
+2021-09-09 11:08:36.624  INFO 11808 --- [qtp492656161-23] c.p.s.controllers.ProductRestController  : log Find product by id 
+2021-09-09 11:08:47.787  INFO 11808 --- [qtp492656161-18] c.p.s.controllers.ProductRestController  : log Find product by id 
+2021-09-09 11:09:15.082  INFO 11808 --- [qtp492656161-19] c.p.s.controllers.ProductRestController  : log Find product by id 
+2021-09-09 11:09:18.885  INFO 11808 --- [qtp492656161-21] c.p.s.controllers.ProductRestController  : log Find product by id 
+2021-09-09 11:10:23.015  INFO 11808 --- [qtp492656161-22] c.p.s.controllers.ProductRestController  : log Find product by id 
+2021-09-09 11:10:27.485  INFO 11808 --- [qtp492656161-21] c.p.s.controllers.ProductRestController  : log Find product by id 
+2021-09-09 11:10:35.340  INFO 11808 --- [qtp492656161-22] c.p.s.controllers.ProductRestController  : log Find product by id 
+2021-09-09 11:10:35.366  WARN 11808 --- [qtp492656161-22] org.eclipse.jetty.server.HttpChannel     : /productapi/products/10
+
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.util.NoSuchElementException: No value present
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:497) ~[jakarta.servlet-api-4.0.4.jar:4.0.4]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584) ~[jakarta.servlet-api-4.0.4.jar:4.0.4]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:228) ~[websocket-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:602) ~[jetty-security-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501) ~[jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[jetty-io-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[jetty-io-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[jetty-io-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:386) ~[jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:148) ~[na:na]
+	at com.prashant.springweb.controllers.ProductRestController.getProduct(ProductRestController.java:37) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	... 52 common frames omitted
+
+2021-09-09 11:11:14.568  INFO 11808 --- [qtp492656161-21] c.p.s.controllers.ProductRestController  : log Find product by id 
+2021-09-09 11:11:20.152  INFO 11808 --- [qtp492656161-22] c.p.s.controllers.ProductRestController  : log Find product by id 
